@@ -25,11 +25,11 @@
                 <div class="row mt-4 ">
                     <div class="col-sm-5 pb-3">
                        <label for="Card">Card#</label>
-                       <input type="text" placeholder="xxxxxxxxxxxxxx"  class="form-control">
+                       <input type="number" placeholder="xxxxxxxxxxxxxx"  class="form-control" id="Card" name="Card">
                     </div>
                     <div class="col-sm-3 pb-3">
                        <label for="CVC#">CVC#</label>
-                       <input type="text" placeholder="0000" class="form-control">
+                       <input type="number" placeholder="0000" class="form-control" id="CVC#" name="CVC#">
                     </div>
                     <div class="col-sm-4 pb-3">
                        <label for="Amount">Amount</label>
@@ -37,20 +37,20 @@
                           <div class="input-group-addon">
                               <i class="fas fa-dollar-sign"></i>
                           </div>
-                          <input class="form-control"  placeholder="Amount" type="number">
+                          <input class="form-control"  placeholder="Amount" type="number" id="Amount" name="Amount">
                       </div>
                    </div>
                    <div class="col-sm-6 pb-3"> 
                      <label for="FirstName">First Name</label>
-                     <input type="text" class="form-control">
+                     <input type="text" class="form-control" id="FirstName" name="FirstName">
                    </div>
                    <div class="col-sm-6 pb-3">
                     <label for="LastName">Last Name</label>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control" id="LastName" name="LastName">
                    </div>
                    <div class="col-sm-6 pb-3">
                     <label for="City">City</label>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control" id="City">
                    </div>
                    <div class="col-sm-3 pb-3">
                     <label for="States">States</label> <select class="form-control custom-select">
@@ -213,8 +213,8 @@
                     </select>
                    </div>
                    <div class="col-sm-3 pb-3">
-                    <label for="Postal">Postal Code</label>
-                    <input type="text" class="form-control" >
+                    <label for="PostalCode">Postal Code</label>
+                    <input type="number" class="form-control" id="PostalCode" >
                    </div>
                    <div class="col-md-6 pb-3">
                     <p>We Accept:</p>
@@ -239,7 +239,7 @@
                    </div>
                    <div class="col-md-6 pb-3">
                     <label for="Message">Message</label>
-                    <textarea class="form-control" rows="3"></textarea>
+                    <textarea class="form-control" rows="3" id="Message"></textarea>
                     <small class="text-muted">Add any notes here.</small>
                    </div>
               </div>  
